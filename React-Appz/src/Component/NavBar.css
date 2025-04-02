@@ -1,0 +1,27 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header nav ul {
+   text-align: end;
+   transform: translateY(-30px);
+}
+
+header nav ul li {
+   display: inline;
+   margin: 0 10px;
+}
+
+header nav ul li a {
+   text-decoration: none;
+}
+
+/*header nav ul{
+   display: flex;
+   justify-content: end;
+   list-style-type: none;
+}
+header nav ul li{
+   margin: 0 10px;
+}*/

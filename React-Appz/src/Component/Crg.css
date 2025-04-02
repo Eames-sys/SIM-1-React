@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    transform: translateY(200px);
+    animation: 2s glow infinite;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+    }
+
+    100% {
+        text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red;
+    }
+}
+
+.C,
+.R,
+.G {
+    color: red;
+    font-size: 200px;
+}
