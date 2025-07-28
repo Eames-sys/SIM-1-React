@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student extends Person {
-    List<Course> courses = new ArrayList<>();
+    private List<Course> courses = new ArrayList<>();
 
     boolean isEnrolled = false;
 
@@ -19,6 +19,7 @@ public class Student extends Person {
 
     public void takeCourse(Course course) {
         courses.add(course);
+        System.out.println(name+"is taking"+course.getTitle()+" "+course.getCode());
     }
     public List<Course> getCourses() {
         return courses;
@@ -28,5 +29,10 @@ public class Student extends Person {
     }
     public boolean isEnrolled() {
         return isEnrolled;
+    }
+
+    public boolean hasViolatedRules() {
+
+        return hasViolatedRules;
     }
 }

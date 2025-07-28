@@ -20,13 +20,15 @@ package Todo;
                 return null;
          }
          public void expel(Student student) {
-                if (student.getAge() >= 18){
+                if (student.getAge() >= 18 && student.hasViolatedRules()){
                     student.expel();
                     System.out.println(student.getName() + "he has been expelled by the principal");
                 }else{
                     System.out.println("You are not expelled");
                 }
                }
+
+
         }
 
 

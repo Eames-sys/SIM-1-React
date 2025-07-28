@@ -1,4 +1,4 @@
-package User;
+package Wednesday;
 
 import java.util.HashMap;
 import java.util.Map;

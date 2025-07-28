@@ -1,8 +1,4 @@
-package User;
-
-import Classwork.Servicee;
-
-import java.sql.Date;
+package Wednesday;
 
 public class Service {
     final static double pi = 3.14;

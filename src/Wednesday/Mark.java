@@ -1,4 +1,4 @@
-package User;
+package Wednesday;
 
 public class Mark {
     public static boolean IsPrime(int number) {
